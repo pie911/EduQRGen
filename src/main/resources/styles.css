@@ -1,0 +1,118 @@
+// Placeholder for src/main/resources/styles.css
+/* ✅ Default Light Mode Theme */
+.root {
+    -fx-background-color: #f4f4f4;
+    -fx-font-family: "Arial", sans-serif;
+}
+
+/* ✅ Dark Mode Theme */
+.root.dark-mode {
+    -fx-background-color: #2b2b2b;
+    -fx-text-fill: #ffffff;
+}
+
+/* ✅ Styling for Labels */
+.label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #333333;
+}
+
+/* Dark mode label styling */
+.dark-mode .label {
+    -fx-text-fill: #ffffff;
+}
+
+/* ✅ Buttons */
+.button {
+    -fx-background-color: linear-gradient(to bottom, #007bff, #0056b3);
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-padding: 8px 15px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-border-color: transparent;
+    -fx-cursor: hand;
+}
+
+/* Button Hover Effect */
+.button:hover {
+    -fx-background-color: linear-gradient(to bottom, #0056b3, #004494);
+}
+
+/* Dark mode button */
+.dark-mode .button {
+    -fx-background-color: linear-gradient(to bottom, #ff9900, #cc7700);
+}
+
+/* ✅ Text Fields */
+.text-field {
+    -fx-padding: 5px;
+    -fx-border-color: #cccccc;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+}
+
+/* Dark mode text field */
+.dark-mode .text-field {
+    -fx-border-color: #666666;
+    -fx-background-color: #444444;
+    -fx-text-fill: white;
+}
+
+/* ✅ Table Styling */
+.table-view {
+    -fx-border-color: #dddddd;
+    -fx-background-color: white;
+}
+
+.dark-mode .table-view {
+    -fx-border-color: #555555;
+    -fx-background-color: #333333;
+}
+
+/* ✅ Scroll Pane */
+.scroll-pane {
+    -fx-background-color: transparent;
+}
+
+.dark-mode .scroll-pane {
+    -fx-background-color: #222222;
+}
+
+/* ✅ QR Code Display */
+.image-view {
+    -fx-border-color: #cccccc;
+    -fx-border-radius: 5px;
+    -fx-padding: 5px;
+}
+
+.dark-mode .image-view {
+    -fx-border-color: #666666;
+}
+
+/* ✅ Tooltip Styling */
+.tooltip {
+    -fx-background-color: #333333;
+    -fx-text-fill: white;
+    -fx-padding: 5px;
+}
+
+/* ✅ Menu Bar */
+.menu-bar {
+    -fx-background-color: #e0e0e0;
+}
+
+.dark-mode .menu-bar {
+    -fx-background-color: #444444;
+}
+
+/* ✅ Status Bar */
+.status-bar {
+    -fx-background-color: #e0e0e0;
+    -fx-padding: 5px;
+}
+
+.dark-mode .status-bar {
+    -fx-background-color: #444444;
+    -fx-text-fill: white;
+}
