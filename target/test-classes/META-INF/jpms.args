@@ -1,0 +1,4 @@
+--patch-module
+com.eduqrgen=_
+--add-reads
+com.eduqrgen=ALL-UNNAMED

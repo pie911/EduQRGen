@@ -1,0 +1,7 @@
+com\eduqrgen\QRCodeGenerator.class
+com\eduqrgen\App.class
+module-info.class
+com\eduqrgen\PDFHandler.class
+com\eduqrgen\database\QRDatabase.class
+com\eduqrgen\EduQRGen.class
+com\eduqrgen\SystemInfo.class

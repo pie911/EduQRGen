@@ -1,15 +1,15 @@
-// Placeholder for src/main/java/module-info.java
 module com.eduqrgen {
     requires javafx.controls;
-    requires javafx.fxml;
-    requires java.sql;          // ✅ Required for MySQL/SQLite database
-    requires org.apache.pdfbox; // ✅ Required for PDF handling
-    requires com.google.zxing;  // ✅ Required for QR Code generation
-    requires java.desktop;      // ✅ Required for image processing and rendering
+    requires javafx.graphics;
+    requires javafx.base;
+    requires javafx.swing;
+    requires java.desktop;
+    requires java.sql;
+    requires java.management;
+    requires org.apache.pdfbox;
+    requires com.google.zxing;
+    requires com.google.zxing.javase;
 
     opens com.eduqrgen to javafx.fxml;
-    opens com.eduqrgen.database to java.sql; // Allows database access
-
     exports com.eduqrgen;
-    exports com.eduqrgen.database;
 }

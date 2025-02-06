@@ -14,5 +14,5 @@
         "src/main/java"
     ],
     "maven.executable.path": "C:\\apache-maven-3.9.9\\bin\\mvn",
-    "java.configuration.updateBuildConfiguration": "interactive"
+    "java.configuration.updateBuildConfiguration": "automatic"
 }
