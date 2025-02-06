@@ -1,1 +1,53 @@
-// Placeholder for .gitignore
+# Maven target directory
+/target/
+
+# IntelliJ IDEA
+/.idea/
+/*.iml
+
+# VS Code
+/.vscode/
+/.vscode/settings.json
+
+# Eclipse
+/.project
+/.classpath
+/.settings/
+
+# NetBeans
+/nbproject/private/
+/build/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# Logs
+/logs
+*.log
+
+# Temporary files
+/tmp
+*.tmp
+
+# Compiled class files
+*.class
+
+# Generated files
+*.jar
+*.war
+*.ear
+
+# Ignore sample PDF
+/src/main/resources/sample.pdf
